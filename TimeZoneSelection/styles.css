@@ -1,0 +1,54 @@
+/*General*/
+
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font: 18px Georgia,Times,"Times New Roman", serif;
+}
+
+#main-content{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px 0 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1{
+    font: 24px Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*form */
+
+form select, form select option {
+    font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 3px 6px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls input {
+    font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+.controls input:hover{
+    color: white;
+    background: black;
+}
